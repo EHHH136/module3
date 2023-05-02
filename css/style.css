@@ -74,3 +74,6 @@ a.nav-link{
     margin-top:18px;
     margin-bottom:5px;
 }
+.nav-item a{
+    text-align:center;
+}
