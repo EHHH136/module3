@@ -147,3 +147,7 @@ p.mobile-message{
 #imgMain{
     width:100%;
 }
+
+.container-fluid{
+    --bs-gutter-x:2rem;
+}
