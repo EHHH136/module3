@@ -17,11 +17,17 @@
         margin-left:2px;
     }
 }
-
+@media (max-width:825px)
+{
+    li#phonePC{
+        font-size:1em !important;
+    }
+}
 @media (max-width:1122px){
     #logo-img{
         display:none !important;
     }
+
 }
 *{
     padding:0px;
@@ -121,4 +127,23 @@ p.weDeliver{
 
 .navbar-toggler-icon{
     background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28100, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+a#phone{
+    width:100%;
+    background-color:#f6b319;
+    font-size:1.2em;
+    color:maroon;
+    border:solid 1px white;
+    padding:5px;
+    margin:10px;
+}
+p.mobile-message{
+    color:white;
+}
+#main-content{
+    margin-top:20px;
+}
+#imgMain{
+    width:100%;
 }
