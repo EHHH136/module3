@@ -152,6 +152,26 @@ p.mobile-message{
     --bs-gutter-x:2rem;
 }
 
+#navTiles{
+    --bs-gutter-x:0rem;
+    padding-left: 1rem;
+}
 #column{
 
+    padding:0;
+}
+div.tile{
+    margin-right:1rem;
+    margin-top:1rem;
+    height:250px;
+    border:solid 1px black;
+    position: relative;
+    overflow:hidden;
+}
+div.tile :hover{
+    box-shadow: 0px 5px 0px 5px #cccc;
+}
+
+div.tile img{
+    width:100%;
 }
